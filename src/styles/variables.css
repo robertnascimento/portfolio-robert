@@ -1,0 +1,93 @@
+/* ====================================================
+   Variáveis CSS globais — Portfólio Robert Iver
+   Paleta inspirada no Flamengo: vermelho, preto, dourado
+   ==================================================== */
+
+:root {
+  /* --- Cores principais (dark mode padrão) --- */
+  --color-primary:        #9e1b1b;
+  --color-primary-dark:   #7a1414;
+  --color-primary-light:  #c02020;
+
+  --color-bg:             #121212;
+  --color-bg-secondary:   #1a1a1a;
+  --color-bg-card:        #1e1e1e;
+  --color-bg-input:       #252525;
+
+  --color-text:           #f5f5f5;
+  --color-text-muted:     #aaaaaa;
+  --color-text-subtle:    #666666;
+
+  --color-accent:         #b58e31;
+  --color-accent-light:   #d4aa4a;
+
+  --color-border:         #2a2a2a;
+  --color-border-focus:   #9e1b1b;
+
+  /* --- Tipografia --- */
+  --font-heading: 'Poppins', sans-serif;
+  --font-body:    'Inter', sans-serif;
+  --font-mono:    'Courier New', Courier, monospace;
+
+  --text-xs:   0.75rem;    /* 12px */
+  --text-sm:   0.875rem;   /* 14px */
+  --text-base: 1rem;       /* 16px */
+  --text-lg:   1.125rem;   /* 18px */
+  --text-xl:   1.25rem;    /* 20px */
+  --text-2xl:  1.5rem;     /* 24px */
+  --text-3xl:  1.875rem;   /* 30px */
+  --text-4xl:  2.25rem;    /* 36px */
+  --text-5xl:  3rem;       /* 48px */
+  --text-6xl:  3.75rem;    /* 60px */
+
+  /* --- Espaçamento --- */
+  --spacing-xs:  0.25rem;
+  --spacing-sm:  0.5rem;
+  --spacing-md:  1rem;
+  --spacing-lg:  1.5rem;
+  --spacing-xl:  2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 5rem;
+
+  /* --- Bordas --- */
+  --radius-sm:   4px;
+  --radius-md:   8px;
+  --radius-lg:   16px;
+  --radius-xl:   24px;
+  --radius-full: 9999px;
+
+  /* --- Sombras --- */
+  --shadow-sm:      0 1px 4px rgba(0, 0, 0, 0.35);
+  --shadow-md:      0 4px 16px rgba(0, 0, 0, 0.45);
+  --shadow-lg:      0 8px 32px rgba(0, 0, 0, 0.55);
+  --shadow-primary: 0 4px 24px rgba(158, 27, 27, 0.35);
+
+  /* --- Transições --- */
+  --transition-fast: 0.15s ease;
+  --transition-base: 0.3s ease;
+  --transition-slow: 0.5s ease;
+
+  /* --- Layout --- */
+  --header-height: 70px;
+  --section-padding: 6rem 0;
+}
+
+/* ====================================
+   Light mode — sobrescreve as variáveis
+   ==================================== */
+.light-mode {
+  --color-bg:           #f5f5f5;
+  --color-bg-secondary: #ebebeb;
+  --color-bg-card:      #ffffff;
+  --color-bg-input:     #f0f0f0;
+
+  --color-text:         #111111;
+  --color-text-muted:   #555555;
+  --color-text-subtle:  #888888;
+
+  --color-border:       #dddddd;
+
+  --shadow-sm:  0 1px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md:  0 4px 16px rgba(0, 0, 0, 0.12);
+  --shadow-lg:  0 8px 32px rgba(0, 0, 0, 0.15);
+}
